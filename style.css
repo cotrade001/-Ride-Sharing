@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    padding: 80px 0;
+    background: #ffffff;
+    /* Dark Background */
+    color: white;
+}
+
+.hero-text h1 {
+    font-weight: bold;
+}
+
+.hero-text p {
+    color: #ccc;
+    /* Light gray for readability */
+}
+
+.download-buttons .btn {
+    margin-right: 10px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* travel section */
+.travel-section {
+    padding: 80px 0;
+    position: relative;
+}
+.travel-content h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1EAD65;
+}
+.travel-content p {
+    color: #666;
+    font-size: 16px;
+}
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+.feature-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.feature-list i {
+    color: #1EAD65;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.travel-image img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+/* Dashed Route Image Styling */
+.map-overlay {
+    position: absolute;
+    left: -30px;
+    top:20px;
+    width: 120px;
+    height:350px;
+}
+@media (max-width: 991px) {
+    .map-overlay {
+        width: 80px;
+        top: 15%;
+    }
+}
+
+       /* booking section */
+       .booking-section {
+        background-color: #e8f5e9;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .booking-content {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .booking-content h2 {
+        color: #2e7d32;
+        font-weight: 600;
+    }
+
+    .booking-content p {
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .step-list {
+        text-align: left;
+    }
+
+    .step-list h5 {
+        color: #2e7d32;
+        font-weight: 600;
+    }
+
+    .step-list p {
+        color: #555;
+    }
+
+    .phone-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        .step-list {
+            text-align: center;
+        }
+    }
+
+    /* service section */
+    .service-section {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .service-section h2 {
+        color: #1b5e20;
+        font-weight: 600;
+    }
+
+    .service-section p {
+        color: #666;
+        margin-bottom: 40px;
+    }
+
+    .service-card {
+        background: #fff;
+        border-radius: 15px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+        border: 1px solid #e0e0e0;
+    }
+
+    .service-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .icon-circle {
+        width: 60px;
+        height: 60px;
+        background: #e8f5e9;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 15px;
+    }
+
+    .icon-circle i {
+        color: #2e7d32;
+        font-size: 24px;
+    }
+
+    .service-title {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .service-text {
+        color: #555;
+    }
+
+/* footer */
+
+ .footer {
+        background-color:#58af83e5;
+        color: white;
+        padding: 30px 0;
+    }
+
+    .footer-logo {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .social-icons a {
+       font-weight: bold;
+        color: white;
+        font-size: 20px;
+        margin: 0 10px;
+        transition: transform 0.3s, color 0.3s;
+    }
+
+    .social-icons a:hover {
+        transform: scale(1.2);
+        color: #dcdcdc;
+    }
+    .list-unstyled li a{
+        font-weight: 600;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .footer-bottom {
+        background: #232222e8;
+        padding: 10px;
+        text-align: center;
+    }
