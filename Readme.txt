@@ -1,4 +1,4 @@
-# 🚗 Ride Sharing Mobile Application
+# 🚗 Ride Sharing Web Application
 
 ## 📌 Objective
 
